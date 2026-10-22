@@ -1,0 +1,542 @@
+{
+  "source": "00_PSR_MACHINED_MAINASM.stp",
+  "sourceSha256": "dd3af3a3505902053ef8e16bf8de4ba0e18a2a70f0aa2472bbee544fa58074c6",
+  "parts": [
+    {
+      "file": "machined_00",
+      "name": "PSR_AKSEL_DRAFT",
+      "label": "Shaft",
+      "group": "shaft",
+      "drawingKey": "shaft",
+      "instance": 1,
+      "center": [
+        0.0249000000000001,
+        1.7763568394002505e-18,
+        1.7763568394002505e-18
+      ],
+      "offset": [
+        0.42,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 0.0004898511661579619,
+      "vertices": 23084,
+      "indices": 27840,
+      "geometry": "assets/machined_00.bin",
+      "sha256": "ce1ea2f3450f37a512f56ebe539dfa25d7f7024961137bd1d07b4a6882c15fa2"
+    },
+    {
+      "file": "machined_01",
+      "name": "PSR_ARM",
+      "label": "Swing arm",
+      "group": "arm",
+      "drawingKey": "arm",
+      "instance": 1,
+      "center": [
+        0.0793999999999995,
+        -0.059999114788684256,
+        0.0003696091893764013
+      ],
+      "offset": [
+        0.6,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 0.0030585960052711414,
+      "vertices": 133702,
+      "indices": 162732,
+      "geometry": "assets/machined_01.bin",
+      "sha256": "f6ef7d0ea1a6f0af8f85f83ece56f2525ef09fd0c3f98acfb2cb16c3e2bd7128"
+    },
+    {
+      "file": "machined_02",
+      "name": "DIN 6885 - A 10 x 8 x 32",
+      "label": "Parallel key",
+      "group": "key",
+      "drawingKey": "",
+      "instance": 1,
+      "center": [
+        0.06989999999999975,
+        0.016499687448877413,
+        -0.00010155830531357823
+      ],
+      "offset": [
+        0.5,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 3.552713678800501e-15,
+      "vertices": 2050,
+      "indices": 2160,
+      "geometry": "assets/machined_02.bin",
+      "sha256": "3ed4647b063c2d915161e248c8e46a8ff43feb1f207f8f9ba0ec320fc424b72b"
+    },
+    {
+      "file": "machined_03",
+      "name": "PSR_DÆSEL_ÅBEN",
+      "label": "Open end cover",
+      "group": "cover_open",
+      "drawingKey": "cover_open",
+      "instance": 1,
+      "center": [
+        0.04189999999999972,
+        0.0,
+        0.0
+      ],
+      "offset": [
+        0.24,
+        0,
+        0
+      ],
+      "outer": true,
+      "boundsErrorMm": 0.0018005371093821054,
+      "vertices": 30510,
+      "indices": 35742,
+      "geometry": "assets/machined_03.bin",
+      "sha256": "f46e15107fc256804a5ac6667e87e51e15a5a7302ea0c99177eb3493f20803d7"
+    },
+    {
+      "file": "machined_04",
+      "name": "DIN 625 SKF - SKF 6207",
+      "label": "Bearing SKF 6207",
+      "group": "bearing6207",
+      "drawingKey": "",
+      "instance": 1,
+      "center": [
+        0.025399999999999697,
+        0.0,
+        1.7763568394002505e-17
+      ],
+      "offset": [
+        0.12,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 0.0004519550214610035,
+      "vertices": 219044,
+      "indices": 222756,
+      "geometry": "assets/machined_04.bin",
+      "sha256": "b1c28c01c21d95184b312dd6a4ba144a238b0494cc4d6768fe95b1bd67cc73ff"
+    },
+    {
+      "file": "machined_05",
+      "name": "DIN 625 SKF - SKF 6207",
+      "label": "Bearing SKF 6207",
+      "group": "bearing6207",
+      "drawingKey": "",
+      "instance": 2,
+      "center": [
+        -0.0253999999999999,
+        7.105427357601002e-18,
+        1.0658141036401503e-17
+      ],
+      "offset": [
+        -0.12,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 0.0004519550214610035,
+      "vertices": 219024,
+      "indices": 222756,
+      "geometry": "assets/machined_05.bin",
+      "sha256": "a016bd98352f34d7fc07bb7f33365a275e0c5761b39d8ba02c38803924a21de2"
+    },
+    {
+      "file": "machined_06",
+      "name": "PSR_BØSNING",
+      "label": "Spacer bushing",
+      "group": "bushing",
+      "drawingKey": "bushing",
+      "instance": 1,
+      "center": [
+        3.8146982461739756e-10,
+        3.552713678800501e-18,
+        0.0
+      ],
+      "offset": [
+        0.2,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 0.0022354158261208568,
+      "vertices": 7366,
+      "indices": 10470,
+      "geometry": "assets/machined_06.bin",
+      "sha256": "67725230b495424853e935464ff44aea79ec15b1668b64e016333a4f67ef77df"
+    },
+    {
+      "file": "machined_07",
+      "name": "PSR_DÆSEL_LUKKET",
+      "label": "Closed end cover",
+      "group": "cover_closed",
+      "drawingKey": "cover_closed",
+      "instance": 1,
+      "center": [
+        -0.041899999999999896,
+        7.105427357601002e-18,
+        -7.105427357601002e-18
+      ],
+      "offset": [
+        -0.24,
+        0,
+        0
+      ],
+      "outer": true,
+      "boundsErrorMm": 0.0018005371093821054,
+      "vertices": 28036,
+      "indices": 32808,
+      "geometry": "assets/machined_07.bin",
+      "sha256": "21142b0428ca9477313372af74d93f4d57ee3160ccc7e1677dce3d6c41a2ff78"
+    },
+    {
+      "file": "machined_08",
+      "name": "PSR_RULLE",
+      "label": "Roller body",
+      "group": "roller",
+      "drawingKey": "roller",
+      "instance": 1,
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset": [
+        0.035,
+        0,
+        0
+      ],
+      "outer": true,
+      "boundsErrorMm": 2.9774667353876794e-06,
+      "vertices": 112422,
+      "indices": 117246,
+      "geometry": "assets/machined_08.bin",
+      "sha256": "f96ccd24739c5616c62505428b7d5dd28a08def54a6402cc3520fc776c71e377"
+    },
+    {
+      "file": "machined_09",
+      "name": "DIN 3760 - AS - 42 x 62 x 8 - NBR",
+      "label": "Radial shaft seal 42 x 62 x 8",
+      "group": "seal",
+      "drawingKey": "",
+      "instance": 1,
+      "center": [
+        0.03889999999999969,
+        -5.464553833007812e-07,
+        5.464553832741359e-07
+      ],
+      "offset": [
+        0.18,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 0.0010929107666122206,
+      "vertices": 84000,
+      "indices": 87474,
+      "geometry": "assets/machined_09.bin",
+      "sha256": "0e1fad01e3192dbeddea45c0d4e2d61e2a6f8e262a1ec97a174bc20153808d2f"
+    },
+    {
+      "file": "machined_10",
+      "name": "ISO 4762 - M5 x 16ISO(8.8, black oxide)",
+      "label": "Socket screw M5 x 16",
+      "group": "screw_m5",
+      "drawingKey": "",
+      "instance": 1,
+      "center": [
+        0.03899999999999978,
+        0.0300520382004283,
+        -0.030052038200428104
+      ],
+      "offset": [
+        0.36,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 2.6538080369675754e-05,
+      "vertices": 19490,
+      "indices": 21630,
+      "geometry": "assets/machined_10.bin",
+      "sha256": "450d08344e724cee8ca301322c24664b696e303acaeeb4269771c2ecbe8d7998"
+    },
+    {
+      "file": "machined_11",
+      "name": "ISO 4762 - M5 x 16ISO(8.8, black oxide)",
+      "label": "Socket screw M5 x 16",
+      "group": "screw_m5",
+      "drawingKey": "",
+      "instance": 2,
+      "center": [
+        0.03899999999999963,
+        -0.030052038200428403,
+        0.0300520382004285
+      ],
+      "offset": [
+        0.36,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 2.2779791919447234e-07,
+      "vertices": 19510,
+      "indices": 21630,
+      "geometry": "assets/machined_11.bin",
+      "sha256": "881fe76a8dc5fe328d9e5096d5334d7d484352caa5813cffb0c9ff03b22e1366"
+    },
+    {
+      "file": "machined_12",
+      "name": "ISO 4762 - M5 x 16ISO(8.8, black oxide)",
+      "label": "Socket screw M5 x 16",
+      "group": "screw_m5",
+      "drawingKey": "",
+      "instance": 3,
+      "center": [
+        0.03899999999999978,
+        -0.030052038200428108,
+        -0.0300520382004282
+      ],
+      "offset": [
+        0.36,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 0.00048425831040432854,
+      "vertices": 19502,
+      "indices": 21630,
+      "geometry": "assets/machined_12.bin",
+      "sha256": "22eb5b6a3b18932aa5a639d27c59e485a6cf24465e6bf2cca24e40ae5e2afe0f"
+    },
+    {
+      "file": "machined_13",
+      "name": "ISO 4762 - M5 x 16ISO(8.8, black oxide)",
+      "label": "Socket screw M5 x 16",
+      "group": "screw_m5",
+      "drawingKey": "",
+      "instance": 4,
+      "center": [
+        0.03899999999999963,
+        0.030052038200428104,
+        0.0300520382004282
+      ],
+      "offset": [
+        0.36,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 6.413484998546437e-05,
+      "vertices": 19524,
+      "indices": 21630,
+      "geometry": "assets/machined_13.bin",
+      "sha256": "3c83882959af0130b3f579ff40b5ae789ee9c8e98b111b1cdaff5ddf4fe79e3c"
+    },
+    {
+      "file": "machined_14",
+      "name": "ISO 4762 - M5 x 16ISO(8.8, black oxide)",
+      "label": "Socket screw M5 x 16",
+      "group": "screw_m5",
+      "drawingKey": "",
+      "instance": 5,
+      "center": [
+        -0.03899999999999991,
+        0.030052038200428403,
+        -0.0300520382004285
+      ],
+      "offset": [
+        -0.36,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 6.413484998546437e-05,
+      "vertices": 19506,
+      "indices": 21630,
+      "geometry": "assets/machined_14.bin",
+      "sha256": "59c8cab5f42a2f0c7ef241fc17e4f50a72fb49893e28da088698b20063d5164a"
+    },
+    {
+      "file": "machined_15",
+      "name": "ISO 4762 - M5 x 16ISO(8.8, black oxide)",
+      "label": "Socket screw M5 x 16",
+      "group": "screw_m5",
+      "drawingKey": "",
+      "instance": 6,
+      "center": [
+        -0.03899999999999999,
+        -0.030052038200428403,
+        0.0300520382004285
+      ],
+      "offset": [
+        -0.36,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 6.413484998546437e-05,
+      "vertices": 19524,
+      "indices": 21630,
+      "geometry": "assets/machined_15.bin",
+      "sha256": "11e44eb1350a35c8b4126051dcec5bac2d69f085f10d11a2fddf1f2244b7ffb9"
+    },
+    {
+      "file": "machined_16",
+      "name": "ISO 4762 - M5 x 16ISO(8.8, black oxide)",
+      "label": "Socket screw M5 x 16",
+      "group": "screw_m5",
+      "drawingKey": "",
+      "instance": 7,
+      "center": [
+        -0.03899999999999991,
+        0.030052038200428403,
+        0.0300520382004285
+      ],
+      "offset": [
+        -0.36,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 6.413484998546437e-05,
+      "vertices": 19502,
+      "indices": 21630,
+      "geometry": "assets/machined_16.bin",
+      "sha256": "d8e83d9b89d6858cee110c719d6f08166654f67adfeddbffd41451f59b8cb2eb"
+    },
+    {
+      "file": "machined_17",
+      "name": "ISO 4762 - M5 x 16ISO(8.8, black oxide)",
+      "label": "Socket screw M5 x 16",
+      "group": "screw_m5",
+      "drawingKey": "",
+      "instance": 8,
+      "center": [
+        -0.03899999999999991,
+        -0.030052038200428403,
+        -0.0300520382004285
+      ],
+      "offset": [
+        -0.36,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 6.413484998546437e-05,
+      "vertices": 19524,
+      "indices": 21630,
+      "geometry": "assets/machined_17.bin",
+      "sha256": "28ef5c5469f9263879740fad52aa80ae7d05fff148d45ec41801980551d1434e"
+    },
+    {
+      "file": "machined_20",
+      "name": "ISO 7380-1 - M12 x 35 8.8",
+      "label": "Button-head screw M12 x 35",
+      "group": "screw_m12",
+      "drawingKey": "",
+      "instance": 1,
+      "center": [
+        0.07969999995231569,
+        -5.3290705182007515e-18,
+        1.2669563293492558e-06
+      ],
+      "offset": [
+        0.68,
+        0,
+        0
+      ],
+      "outer": false,
+      "boundsErrorMm": 0.0025339126586914062,
+      "vertices": 34572,
+      "indices": 37110,
+      "geometry": "assets/machined_20.bin",
+      "sha256": "b878c51b70585e0d2c6659d4129129244bfcba43637e6ed2ec5d064ee0a1f7ec"
+    }
+  ],
+  "sourcePartCount": 21,
+  "hiddenPartIds": [
+    "machined_18",
+    "machined_19"
+  ],
+  "bounds": {
+    "min": [
+      -0.04990000277757645,
+      -0.14749771356582642,
+      -0.12499947100877762
+    ],
+    "max": [
+      0.10690000653266907,
+      0.12499947100877762,
+      0.12499947100877762
+    ]
+  },
+  "drawings": {
+    "arm": [
+      {
+        "url": "assets/arm-1.jpg",
+        "width": 2560,
+        "height": 1811,
+        "title": "01_PSR_ARM_MACHINED-1"
+      },
+      {
+        "url": "assets/arm-2.jpg",
+        "width": 2560,
+        "height": 1811,
+        "title": "02_PSR_ARM_CASTING-1"
+      }
+    ],
+    "bushing": [
+      {
+        "url": "assets/bushing-1.jpg",
+        "width": 2560,
+        "height": 1809,
+        "title": "01_PSR_BØSNING-1"
+      }
+    ],
+    "cover_closed": [
+      {
+        "url": "assets/cover_closed-1.jpg",
+        "width": 2560,
+        "height": 1811,
+        "title": "01_PSR_DÆSEL_LUKKET-1"
+      }
+    ],
+    "cover_open": [
+      {
+        "url": "assets/cover_open-1.jpg",
+        "width": 2560,
+        "height": 1811,
+        "title": "01_PSR_DÆSEL_ÅBEN-1"
+      }
+    ],
+    "roller": [
+      {
+        "url": "assets/roller-1.jpg",
+        "width": 2560,
+        "height": 1811,
+        "title": "01_PSR_RULLE_MACHINED-1"
+      },
+      {
+        "url": "assets/roller-2.jpg",
+        "width": 2560,
+        "height": 1811,
+        "title": "02_PSR_RULLE_STØBT-1"
+      }
+    ],
+    "shaft": [
+      {
+        "url": "assets/shaft-1.jpg",
+        "width": 2560,
+        "height": 1811,
+        "title": "01_PSR_SHAFT_MACHINED-1"
+      }
+    ]
+  },
+  "triangles": 377378
+}
